@@ -16,23 +16,38 @@
 
 <body>
 	<header>
-		<h1>geek<span>factory</span> tech news</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+							aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">geekfactory tech news</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+	  </nav>
 	</header>
 
 	<div class="container-fluid">
 		<div class="row">
-			<main class="col-md-8">
+			<main class="col-md-8 col-sm-9">
 				<div class="row">
-					<article class="col-md-4">
+					<article class="col-md-4 col-sm-6 col-xs-12">
 						<header>
 							<h2>Tesla hires Apple’s creator of Swift as new VP of Autopilot Software</h2>
 							<time datetime="2017-01-12">1/12/2017</time>
@@ -54,7 +69,7 @@
 							</li>
 						</ul>
 					</article>
-					<article class="col-md-4">
+					<article class="col-md-4 col-sm-6 col-xs-12">
 						<header>
 							<h2>Illumina wants to sequence your whole genome for $100</h2>
 							<time datetime="2017-01-11">1/11/2017</time>
@@ -75,7 +90,7 @@
 							</li>
 						</ul>
 					</article>
-					<article class="col-md-4">
+					<article class="col-md-4 col-sm-6 col-xs-12">
 						<header>
 							<h2>The outlook for Bay Area startup space in 2017</h2>
 							<time datetime="2017-01-10">1/10/2017</time>
@@ -96,7 +111,7 @@
 							</li>
 						</ul>
 					</article>
-					<article class="col-md-4">
+					<article class="col-md-4 col-sm-6 col-xs-12">
 						<header>
 							<h2>Google Voice is getting an upgrade</h2>
 							<time datetime="2017-01-9">1/9/2017</time>
@@ -165,7 +180,10 @@
 	<footer>
 		<p>&copy; 2008. All Rights Reserved. Design by geek<span>factory</span>.</p>
 	</footer>
-	<script src="bootstrap.min.css"/>
+
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	
 </body>
 
 </html>

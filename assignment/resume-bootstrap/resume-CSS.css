@@ -21,9 +21,8 @@ body
 #header section
 {
     width: 33%;
-	
 	float: left;
-	height:160px;
+	/*height:160px;*/
 }
 #summary
 {
@@ -55,7 +54,7 @@ body
 }
 main
 {
-	width:55%;
+	/*width:55%;*/
 	float:left;
     padding-left: 10px;
 }
@@ -65,13 +64,13 @@ main
     color: dimgray;
     padding-right: 30%;
 }
-aside
+#skills
 {
 	float:right;
-	width:40%;
+	/*width:40%;*/
     
 }
-aside progress
+#skills progress
 {
 	padding:5px;
 	width:90%;	

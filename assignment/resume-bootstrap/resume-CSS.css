@@ -1,0 +1,100 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+#container
+{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#header
+{
+    padding: 10px;
+	border-bottom:2px solid #000;
+    overflow: hidden;
+}
+#header section
+{
+    width: 33%;
+	
+	float: left;
+	height:160px;
+}
+#summary
+{
+    text-align: left;
+    
+}
+#profile-picture img
+{
+    border-radius: 50%;
+    border: 3px solid dimgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#contact ul 
+{
+    text-align: right;
+	list-style-type: none;  
+}
+#contact ul li
+{
+    padding-top: 8px;
+}
+#company
+{
+    font-size: small;
+    color: dimgray;
+}
+main
+{
+	width:55%;
+	float:left;
+    padding-left: 10px;
+}
+.date-address
+{
+    font-size: small;
+    color: dimgray;
+    padding-right: 30%;
+}
+aside
+{
+	float:right;
+	width:40%;
+    
+}
+aside progress
+{
+	padding:5px;
+	width:90%;	
+    background-color: #f3f3f3;
+    border: 0;
+    height: 20px;
+    border-radius: 9px;
+    margin-top: 30px;
+    vertical-align: 0;
+    
+}
+.skillsBar{
+    position: absolute;
+   text-align: center;
+}
+#Language span
+{
+    padding-right: 30%;
+    font-weight: bold;
+}
+#lang-value span
+{
+    padding-right: 36%;
+    font-weight:normal;
+    
+}

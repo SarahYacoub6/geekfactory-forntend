@@ -66,14 +66,21 @@ main
 }
 .skillsBar
 {
+    list-style-type: none; 
+    text-align: right; 
+    padding-left: 0;
+}
+.skillsBar span
+{
 	display: inline-block;
-    width: 25%;
+    /*width: 30%;*/
+    margin-right: 5%;
     
 }
-#skills progress
+.skillsBar progress
 {
 	padding:5px;
-	width:75%;	
+	width:65%;	
     background-color: #f3f3f3;
     border: 0;
     height: 20px;

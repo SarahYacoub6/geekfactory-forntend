@@ -21,7 +21,7 @@ body
 }
 #header section
 {
-    width: 33%;
+    /*width: 33%;*/
 	float: left;
 	/*height:160px;*/
 }
@@ -34,8 +34,8 @@ body
     border-radius: 50%;
     border: 3px solid dimgray;
     display: block;
-    margin-left: auto;
-    margin-right: auto
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #contact ul 
@@ -64,16 +64,16 @@ main
     color: dimgray;
     padding-right: 30%;
 }
-#skills
+.skillsBar
 {
-	/*float:right;*/
-	/*width:40%;*/
+	display: inline-block;
+    width: 25%;
     
 }
 #skills progress
 {
 	padding:5px;
-	width:80%;	
+	width:75%;	
     background-color: #f3f3f3;
     border: 0;
     height: 20px;
@@ -82,10 +82,7 @@ main
     vertical-align: 0;
     
 }
-.skillsBar{
-    position: absolute;
-    text-align: center;
-}
+
 #Language span
 {
     padding-right: 20%;

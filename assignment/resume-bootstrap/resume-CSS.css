@@ -4,7 +4,8 @@ body
     padding: 0;
     background-color: dimgray;
 }
-#container
+
+#maindiv
 {
     background-color: white;
     width: 60%;
@@ -26,8 +27,7 @@ body
 }
 #summary
 {
-    text-align: left;
-    
+    text-align: left;    
 }
 #profile-picture img
 {
@@ -55,7 +55,7 @@ body
 main
 {
 	/*width:55%;*/
-	float:left;
+	/*float:left;*/
     padding-left: 10px;
 }
 .date-address
@@ -66,14 +66,14 @@ main
 }
 #skills
 {
-	float:right;
+	/*float:right;*/
 	/*width:40%;*/
     
 }
 #skills progress
 {
 	padding:5px;
-	width:90%;	
+	width:80%;	
     background-color: #f3f3f3;
     border: 0;
     height: 20px;
@@ -84,16 +84,16 @@ main
 }
 .skillsBar{
     position: absolute;
-   text-align: center;
+    text-align: center;
 }
 #Language span
 {
-    padding-right: 30%;
+    padding-right: 20%;
     font-weight: bold;
 }
 #lang-value span
 {
-    padding-right: 36%;
+    padding-right: 26%;
     font-weight:normal;
     
 }

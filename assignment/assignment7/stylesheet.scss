@@ -1,0 +1,146 @@
+@import 'reset';
+$gray_color:dimgray;
+@mixin set_width($value)
+{
+    width: $value;
+}
+.float_left
+{
+    float: left;
+}
+body
+{
+     
+    background-color: $gray_color;
+}
+#container
+{
+    background-color: white;
+    @include set_width(60%);
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+header
+{
+    padding: 10px;
+	border-bottom:2px solid #000;
+    overflow: hidden;
+    section
+    {
+        @include set_width(33.333%);
+        @extend .float_left;
+        box-sizing: border-box;
+    }
+}
+#summary
+{
+    text-align: left;
+    
+}
+#profile-picture img
+{
+    border-radius: 50%;
+    border: 3px solid dimgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#contact
+{
+    ul
+    {
+        text-align: right;
+	    list-style-type: none;  
+        li
+        {
+            padding-top: 8px;
+        }
+    }
+
+}
+#company
+{
+    font-size: small;
+    color: $gray_color;
+}
+#exp
+{
+    @include set_width(55%);
+	@extend .float_left;
+    padding-left: 10px;
+}
+.date-address
+{
+    font-size: small;
+    color: $gray_color;
+    padding-right: 30%;
+}
+#Skills
+{
+	float:right;
+	width:40%;
+    ul
+    {
+        list-style-type: none; 
+        text-align: right; 
+        padding-left: 0;
+    }
+}
+.skillsBar
+{
+    li
+    {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    progress
+    {
+        padding:5px;
+        @include set_width(65%);	
+        background-color: #f3f3f3;
+        border: 0;
+        height: 20px;
+        border-radius: 9px;
+        vertical-align: 0;
+    }
+    span
+    {
+        display: inline-block;
+        margin-right: 5%;
+        @include set_width(65px);
+    }
+}
+#Language span
+{
+    padding-right: 20%;
+    font-weight: bold;
+}
+#lang-value span
+{
+    padding-right: 26%;
+    font-weight:normal;
+    
+}
+@media(max-width:1170px)
+{
+	#exp
+	{
+		@include set_width(100%);
+	}
+	#Skills
+	{
+		@include set_width(100%);
+	}
+}
+@media(max-width:768px)
+{
+	#exp
+	{
+		@include set_width(100%);
+	}
+	#Skills
+	{
+		@include set_width(100%);
+	}
+}

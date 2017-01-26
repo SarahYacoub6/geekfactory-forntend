@@ -36,12 +36,11 @@ header
 #summary
 {
     text-align: left;
-    
 }
 #profile-picture img
 {
     border-radius: 50%;
-    border: 3px solid dimgray;
+    border: 3px solid $gray_color;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -57,7 +56,6 @@ header
             padding-top: 8px;
         }
     }
-
 }
 #company
 {

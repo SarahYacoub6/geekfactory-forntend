@@ -4,10 +4,7 @@ $gray_color:dimgray;
 {
     width: $value;
 }
-.float_left
-{
-    float: left;
-}
+
 body
 {
      
@@ -29,7 +26,7 @@ header
     section
     {
         @include set_width(33.333%);
-        @extend .float_left;
+        float: left;
         box-sizing: border-box;
     }
 }
@@ -65,7 +62,7 @@ header
 #exp
 {
     @include set_width(55%);
-	@extend .float_left;
+	float: left;
     padding-left: 10px;
 }
 .date-address

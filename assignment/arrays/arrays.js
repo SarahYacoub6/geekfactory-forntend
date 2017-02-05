@@ -21,12 +21,12 @@ var sum=function(arr)
     return result;
 }
 
-  var find=function(arr,x)
+  var find=function(arr,match)
 {
     var result;
     for(var i=0;i<arr.length;i++)
     {
-        result = x(arr[i]);
+        result = match(arr[i]);
         if(result)
         {
             return arr[i];

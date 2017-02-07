@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+
+#maindiv
+{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#header
+{
+    padding: 10px;
+	border-bottom:2px solid #000;
+    overflow: hidden;
+}
+#header section
+{
+    /*width: 33%;*/
+	float: left;
+	/*height:160px;*/
+}
+#summary
+{
+    text-align: left;    
+}
+#profile-picture img
+{
+    border-radius: 50%;
+    border: 3px solid dimgray;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#contact ul 
+{
+    text-align: right;
+	list-style-type: none;  
+}
+#contact ul li
+{
+    padding-top: 8px;
+}
+#company
+{
+    font-size: small;
+    color: dimgray;
+}
+main
+{
+	/*width:55%;*/
+	/*float:left;*/
+    padding-left: 10px;
+}
+.date-address
+{
+    font-size: small;
+    color: dimgray;
+    padding-right: 30%;
+}
+.skillsBar
+{
+    list-style-type: none; 
+    text-align: right; 
+    padding-left: 0;
+}
+.skillsBar li
+{
+    margin-top: 30px;
+}
+.skillsBar span
+{
+	display: inline-block;
+    /*width: 30%;*/
+    margin-right: 5%;
+    
+}
+.skillsBar progress
+{
+	padding:5px;
+	width:65%;	
+    background-color: #f3f3f3;
+    border: 0;
+    height: 20px;
+    border-radius: 9px;
+    vertical-align: 0;
+    
+}
+
+#Language span
+{
+    padding-right: 20%;
+    font-weight: bold;
+}
+#lang-value span
+{
+    padding-right: 26%;
+    font-weight:normal;
+    
+}

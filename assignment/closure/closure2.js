@@ -1,8 +1,8 @@
-var saveForLater=function()
+var saveForLater=function(name)
 {
     return function()
     {
-        return "MyName";
+        return name;
     }
 }
 

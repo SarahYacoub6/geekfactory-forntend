@@ -43,3 +43,19 @@ table thead tr td
     font-size: medium;
     font-weight: bold;
 }
+#submit , #edit-done
+{
+   width: 100px;
+   height: 25px;
+   float: right;
+}
+.input
+{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.label
+{
+    display: block;
+}

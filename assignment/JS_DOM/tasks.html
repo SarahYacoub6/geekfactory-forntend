@@ -16,19 +16,19 @@
         <section>
             <h2>New task:</h2>
             <form id="new-todo">
-                <label>Category: <input name="category" type="text" required></label><br>
-                <label>Title: <input name="title" type="text" required></label><br>
-                <label>Priority: <input name="priority" type="number" min="0" max="3" required></label><br>
-                <label>Estimate: <input name="estimate" type="number" min="0" required></label><br>
-                <input type="submit" value="Add">
+                <label class="label">Category: </label><input class="input" name="category" type="text" required><br>
+                <label class="label">Title: </label><input class="input" name="title" type="text" required><br>
+                <label class="label">Priority: </label><input class="input" name="priority" type="number" min="0" max="3" required><br>
+                <label class="label">Estimate: </label><input class="input" name="estimate" type="number" min="0" required><br>
+                <input id="submit" type="submit" value="Add">
             </form>
-
+            
             <form id="edit">
-                <label>Category: <input id="edit-category" type="text" required disabled></label><br>
-                <label>Title: <input id="edit-title" type="text" required disabled></label><br>
-                <label>Priority: <input id="edit-priority" type="number" min="0" max="3" required disabled></label><br>
-                <label>Estimate: <input id="edit-estimate" type="number" min="0" required disabled></label><br>
-                <input type="submit" id="edit-done" value="Edit" disabled>
+                <label class="label">Category: </label><input class="input" id="edit-category" type="text" required disabled><br>
+                <label class="label">Title: </label><input class="input" id="edit-title" type="text" required disabled><br>
+                <label class="label">Priority: </label><input class="input" id="edit-priority" type="number" min="0" max="3" required disabled><br>
+                <label class="label">Estimate: </label><input class="input" id="edit-estimate" type="number" min="0" required disabled><br>
+                <input id="edit-done" type="submit"  value="Edit" disabled>
             </form>
 
         </section>

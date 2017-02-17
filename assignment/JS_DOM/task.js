@@ -31,7 +31,7 @@ Task.prototype.done=function()
     }
     else
     {
-        return false;
+        return true;
     }
 }
     ///////////////////////////////////

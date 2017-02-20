@@ -62,7 +62,7 @@
             document.getElementById('edit-title').value = null;
             document.getElementById('edit-priority').value = null;
             document.getElementById('edit-estimate').value = null;
-            disableTaskForm(true);
+            disableTaskForm( true);
             editForm && editForm.removeEventListener('submit',editTask);
         }
         function getTaskData(task){

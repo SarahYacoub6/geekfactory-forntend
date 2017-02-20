@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GF Todo App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>GF Todo App</h1>
+    </header>
+    <main>
+        <section>
+            <h2>New task:</h2>
+            <form id="new-todo">
+                <label class="label">Category: </label><input class="input" name="category" type="text" required><br>
+                <label class="label">Title: </label><input class="input" name="title" type="text" required><br>
+                <label class="label">Priority: </label><input class="input" name="priority" type="number" min="0" max="3" required><br>
+                <label class="label">Estimate: </label><input class="input" name="estimate" type="number" min="0" required><br>
+                <input id="submit" type="submit" value="Add">
+            </form>
+            
+            <form id="edit">
+                <label class="label">Category: </label><input class="input" id="edit-category" type="text" required disabled><br>
+                <label class="label">Title: </label><input class="input" id="edit-title" type="text" required disabled><br>
+                <label class="label">Priority: </label><input class="input" id="edit-priority" type="number" min="0" max="3" required disabled><br>
+                <label class="label">Estimate: </label><input class="input" id="edit-estimate" type="number" min="0" required disabled><br>
+                <input id="edit-done" type="submit"  value="Edit" disabled>
+            </form>
+
+        </section>
+        <section>
+            <h2>Tasks:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Category</td>
+                        <td>Title</td>
+                        <td>Priority</td>
+                        <td>Estimate</td>
+                        <td>Spent</td>
+                        <td>Remaining</td>
+                        <td>Done</td>
+                        <td>Edit</td>
+                        <td>Delete</td>
+                        
+                    </tr>
+                </thead>
+                <tbody id="tasks">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="task.js"></script>
+    <script src="task-manager.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

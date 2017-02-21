@@ -1,5 +1,4 @@
-import { Task } from "./task";
-export var create = function()
+var create = function()
  {
     var tasks = [];
     var onchangecallback;

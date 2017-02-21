@@ -1,0 +1,61 @@
+h1
+{
+    text-align: center;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg');
+    background-size: cover;
+    color: black;
+}
+section form
+{
+    border: solid 1px;
+    width: 48%;
+    padding: 10px;
+}
+section h2
+{
+    padding-left: 10px;
+}
+#new-todo
+{
+    float: left;
+}
+#edit
+{
+    float: right;
+}
+table, th, td 
+{
+    border: 1px solid black;
+    text-align: left;
+}
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+table thead tr td
+{
+    font-size: medium;
+    font-weight: bold;
+}
+#submit , #edit-done
+{
+   width: 100px;
+   height: 25px;
+   float: right;
+}
+.input
+{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.label
+{
+    display: block;
+}

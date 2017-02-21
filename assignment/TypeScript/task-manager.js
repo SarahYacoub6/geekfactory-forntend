@@ -1,10 +1,8 @@
-"use strict";
-var task_1 = require("./task");
-exports.create = function () {
+var create = function () {
     var tasks = [];
     var onchangecallback;
     function create(category, title, priority, estimate) {
-        var task = new task_1.Task(category, title, priority, estimate);
+        var task = new Task(category, title, priority, estimate);
         tasks.push(task);
         onchangecallback && onchangecallback(tasks);
         return task;

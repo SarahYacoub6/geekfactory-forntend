@@ -1,4 +1,3 @@
-"use strict";
 var Task = (function () {
     function Task(category, title, priority, estimate, spent, remaining) {
         this.category = category;
@@ -32,4 +31,3 @@ var Task = (function () {
     };
     return Task;
 }());
-exports.Task = Task;
